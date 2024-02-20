@@ -5,14 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Article extends Model
 {
     use HasFactory;
 
-        const TABLE = "articles";
-        const PRIMARY_KEY = "id";
+    const TABLE = "articles";
+    const PRIMARY_KEY = "id";
     const NAME_COLUMN_NAME = "name";
     const IMAGE_COLUMN_NAME = "image";
     const DESCRIPTION_COLUMN_NAME = "description";
